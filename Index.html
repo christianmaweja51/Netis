@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/images.jpeg" alt="Logo NETIS" />
+        </div>
+        <div>
+            <button id="download" class="btn">Télécharger</button>
+        </div>
+        
+    </header>
+
+    <div class="main">
+        <div class="text-left">
+            <div class="logo">
+                <img src="img/eastcastle-infrastructure.jpg" class="logo1" alt="Logo NETIS" />
+            </div>
+        </div>
+
+        <div class="text-center">
+            <h1>PM RAPPORT CHECK-LIST</h1>
+        </div>
+         <div class="text-center">
+            <div class="logo">
+                <img src="img/images.jpeg" alt="Logo NETIS" />
+            </div>
+        </div>
+       
+        <div class="input-wrapper">
+            <label for="Zone_Kasai">Zone Kasai</label>
+            <select name="Kasai" id="Kasai" class="input">
+                <option value="pmkin">Select site</option>
+                <option value="Aeroport_Bipemba">Aeroport_Bipemba-CDKOR0081</option>
+                <option value="Bakua_Mbumba">Bakua_Mbumba-CDKOC0042</option>
+                <option value="Bakwa_nzeba">Bakwa_nzeba-CDKOR0078</option>
+                <option value="Bakwa_Tshibaka">Bakwa_Tshibaka-CDKOR0071</option>
+                <option value="Bakwabowa">Bakwabowa-CDKOR0027</option>
+                <option value="Bakwadianga">Bakwadianga-CDKOR0001</option>
+                <option value="Bana_Ba_Ntumba_1_Orange">Bana_Ba_Ntumba_1_Orange-CDKOC0012</option>
+                <option value="Bana_ba_ntumba_2_Airtel">Bana_ba_ntumba_2_Airtel-CDKOC0040</option>
+                <option value="Bena_Boya">Bena_Boya-CDKOR0025</option>
+                <option value="Bena_Mpeta">Bena_Mpeta-CDKOR0069</option>
+                <option value="Bena_Dibele">Bena_Dibele-CDKOR0005</option>
+                <option value="Bena_Mbala">Bena_Mbala-CDKOR0048-</option>
+                <option value="Bowa">Bowa-CDKOR0068-</option>
+                <option value="Bibanga">Bibanga-CDKOR0017-</option>
+                <option value="Bridge">Bridge-CDKOR0002-</option>
+                <option value="Cardoso">Cardoso-CDKOC0045-</option>
+                <option value="CEVM">CEVM-CDKOR0023-</option>
+                <option value="CPCO">CPCO-CDKOC0001-</option>
+                <option value="Dubai">Dubai-CDKOR0019-</option>
+                <option value="EDAP">EDAP-CDKOR0083-</option>
+                <option value="EPRO">EPRO-CDKOC0002-</option>
+                <option value="Kananga_Ferme">Kananga_Ferme-CDKOC0088-</option>
+                <option value="Gouvernorat">Gouvernorat-CDKOR0026-</option>
+                <option value="Kabila_Village">Kabila_Village-CDKOR0072-</option>
+                <option value="Kabinda">Kabinda-CDKOR0031-</option>
+                <option value="Kabwe">Kabwe-CDKOR0003-</option>
+                <option value="Kajiba">Kajiba-CDKOR0004-</option>
+                <option value="Kakulu">Kakulu-CDKOR0077-</option>
+                <option value="Kakumba">Kakumba-CDKOC0043-</option>
+                <option value="Kalamba_Mbuji">Kalamba_Mbuji-CDKOC0015-</option>
+                <option value="Kalenda_Gare">Kalenda_Gare-CDKOR0046-</option>
+                <option value="Kalomba_Ntambwe">Kalomba_Ntambwe-CDKOC0039-</option>
+                <option value="Kalundwe">Kalundwe-CDKOR0037-</option>
+                <option value="Kamende_Kalambo">Kamende_Kalambo-CDKOR0044-</option>
+                <option value="Kamiji_Mission">Kamiji_Mission-CDKOR0053-</option>
+                <option value="Kamisala">Kamisala-CDKOR0076-</option>
+                <option value="Kamponde_Mission">Kamponde_Mission-CDKOC0010-</option>
+                <option value="Kananga_Auditorat">Kananga_Oditorat_Militaire-CDKOC0089-</option>
+                <option value="Kananga_Sncc">Kananga_Sncc-CDKOC0087-</option>
+                <option value="Kaniama_city">Kaniama_city-CDKOR0078-</option>
+                <option value="Kanyiki">Kanyiki-CDKOR0029-</option>
+                <option value="Kanzala">Kanzala-CDKOC0003-</option>
+                <option value="Kasala">Kasala-CDKOR0068-</option>
+                <option value="Kasansa">Kasansa-CDKOR0052-</option>
+                <option value="Kasanzu">Kasanzu-CDKOR0075-</option>
+                <option value="Kashama_1">Kashama_1-CDKOC0044-</option>
+                <option value="Kashama_2">Kashama_2-CDKOC0011-</option>
+                <option value="katoba">katoba-CDKOR0070-</option>
+                <option value="Katshisamba">Katshisamba-CDKOR0042-</option>
+                <option value="Katshisungu_Masonzo">Katshisungu_Masonzo-CDKOR0035-</option>
+                <option value="Kayala">Kayala-CDKOC0041-</option>
+                <option value="Konyi">Konyi-CDKOC0004-</option>
+                <option value="Kumba">Kumba-CDKOR0032-</option>
+                <option value="Lodjia">Lodja-CDKOR0005-</option>
+                <option value="Lukalaba_Orange">Lukalaba_Orange-CDKOR0033-</option>
+                <option value="Lulua">Lulua-CDKOC0006-</option>
+                <option value="Lusuku">Lusuku-CDKOR0028-</option>
+                <option value="Manda">Manda-CDKOR0050-</option>
+                <option value="Mayimbi">Mayimbi-CDKOC0041-</option>
+                <option value="Mbaya_Musenge_2">Mbaya_Musenge_2-CDKOR0049-</option>
+                <option value="Mbuji_Mayi_Munkamba">Mbuji_Mayi_Munkamba-CDKOR0074-</option>
+                <option value="Miabi">Miabi-CDKOR0006-</option>
+                <option value="Milambo_Tshikapa">Milambo_Tshikapa-CDKOC0005-</option>
+                <option value="Mpoyi">Mpoyi-CDKOC0048-</option>
+                <option value="Mubwabwa">Mubwabwa-CDKOC0039-</option>
+                <option value="Mulundu">Mulundu-CDKOR0014-</option>
+                <option value="Munyenge">Munyenge-CDKOR0045-</option>
+                <option value="Musadi">Musadi-CDKOR0024-</option>
+                <option value="Musaula">Musaula-CDKOR0015-</option>
+                <option value="Mwadi_Kayembe">Mwadi_Kayembe-CDKOC0038-</option>
+                <option value="Mwene_Ditu_1">Mwene_Ditu_1-CDKOR0009-</option>
+                <option value="Mwene_Ditu_II">Mwene_Ditu_2-CDKOR0008-</option>
+                <option value="New_Goshen">New_Goshen-CDKOR0082-</option>
+                <option value="Nkashama">Nkashama-CDKOR0022-</option>
+                <option value="Nyama_Musoko">Nyama_Musoko-CDKOR0043-</option>
+                <option value="Nyanga">Nyanga-CDKOC0013-</option>
+                <option value="Power_Station">Power_Station-CDKOR0030-</option>
+                <option value="Q_Kasavubu">Q_Kasavubu-CDKOR0010-</option>
+                <option value="Red_Cross">Red_Cross-CDKOR0021-</option>
+                <option value="Rep_02">Rep02-CDKOC0046-</option>
+                <option value="Sami">Sami-CDKOC0008-</option>
+                <option value="SNEL3">SNEL3-CDKOR0017-</option>
+                <option value="Tabernacle">Tabernacle-CDKOR0018-</option>
+                <option value="Tanko">Tanko-CDKOR0011-</option>
+                <option value="Tenda">Tenda-CDKOC0007-</option>
+                <option value="Tshatshatsha">Tshatshatsha-CDKOR0012-</option>
+                <option value="Tshikapa_City">Tshikapa_City-CDKOR0084-</option>
+                <option value="Sapo_Bumba">Sapo_Bumba-CDKOR0067-</option>
+                <option value="Tshilunde">Tshilunde_Bunyengu-CDKOR0080-</option>
+                <option value="Tshikula">Tshikula-CDKOR0069-</option>
+                <option value="Tshimpumpu">Tshimpumpu-CDKOR0079-</option>
+                <option value="Tshitala_Mudiala">Tshitala_Mudiala-CDKOC0040-</option>
+                <option value="Tubalu">Tubalu-CDKOR0020-</option>
+                <option value="Wikong">Wikong-CDKOR0013-</option>
+                <option value="Miba_Community">Miba_Community-CDKOR0007-</option>
+                <option value="Bena_Mulumba">Bena_Mulumba-CDKOR0038-</option>
+                <option value="Katako_kombe">Katako_kombe-CDKOR0067-</option>
+            </select>
+        </div>
+        <div class="input-wrapper">
+            <label for="vendor">SOCIETE</label>
+            <input type="text" id="vendor" class="input" value="NETIS"/>
+        </div>
+        <div class="input-wrapper">
+            <label for="noc_ticket">TICKET NOC</label>
+            <input type="text" id="noc_ticket" class="input"placeholder="N/A" />
+        </div>
+        <div class="input-wrapper">
+            <label for="zonal">Zonal Name</label>
+             <select name="zonal" id="zonal" class="input">
+                 <option value="EVARISTE">Evariste NYEMBUE</option>
+            </select>
+            <div class="input-wrapper">
+                <label for="fme_name">Nom FME</label>
+                <input type="text" id="fme_name" class="input"placeholder="N/A" />
+            </div>
+            <div class="input-wrapper">
+                <label for="date">Date</label>
+                <input type="datetime-local" id="date" class="input" />
+            </div>
+            <div class="input-wrapper">
+                <label for="pme_type">Type de PME</label>
+                <select name="pm_type" id="pm_type" class="input">
+                    <option value="pm">Select type de PM</option>
+                    <option value="électrique">électrique</option>
+                    <option value="50H">50H</option>
+                    <option value="250H">250H</option>
+                    <option value="1000H">1000H</option>
+                </select>
+            </div>
+            <div class="input-wrapper">
+                <label for="run_hour">Indexs</label>
+                <input type="text" id="run_hour" class="input" placeholder="N/A"/>
+            </div>
+            <div class="input-wrapper">
+                <label for="dc_load_orange">DC Load Orange</label>
+                <input type="text" id="dc_load_orange" class="input" placeholder="N/A"/>
+            </div>
+            <div class="input-wrapper">
+                <label for="dc_load_airtel">DC Load Airtel</label>
+                <input type="text" id="dc_load_airtel" class="input"placeholder="N/A" />
+            </div>
+            <div class="input-wrapper">
+                <label for="dc_load_vodacom">DC Load Vodacom</label>
+                <input type="text" id="dc_load_vodacom" class="input"placeholder="N/A" />
+            </div>
+            <div class="input-wrapper">
+                <label for="AC_load">AC Load </label>
+                <input type="text" id="AC_load" class="input"placeholder=""N/A"/>
+            </div>
+        </div>
+        <!-- pictures of type of lock -->
+
+        <section class="site-lock">
+            <h2>TYPE DE SECURITE</h2>
+            <div class="bg">
+                <div class="input-wrapper">
+                    <label for="type">Type de Cadenas</label>
+                    <select name="type" id="type" class="input">
+                         <option value="acs"> select type Cadenas</option>
+                        <option value="pa"> Pas de Cadenas</option>
+                        <option value="acsys"> Cadenas Acsys</option>
+                        <option value="no_acsys">Cadenas Ordinaire</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="gate">A la porte</label>
+                    <select name="gate" id="gate" class="input"disabled>
+                        <option value="gat"> Select gate</option>
+                        <option value="OUI"> OUI</option>
+                        <option value="NON">NON</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="genset">Sur le Generateur</label>
+                    <select name="genset" id="genset" class="input"disabled>
+                        <option value="yes"> Select genset</option>
+                        <option value="OUI"> OUI</option>
+                        <option value="NON">Non</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="smps">Sur SMPS</label>
+                    <select name="smps" id="smps" class="input"disabled>
+                        <option value="sm"> select SMPS</option>
+                        <option value="OUI">OUI</option>
+                        <option value="NON">NON</option>
+                    </select>
+                </div>
+            </div>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+        <SCRipt>
+            document.getElementById("type").addEventListener("change", function() {
+                if  (this.value === "pa") {
+                    document.getElementById("gate").disabled = true;
+                    document.getElementById("genset").disabled = true;
+                    document.getElementById("smps").disabled = true;
+                } else {
+                    document.getElementById("gate").disabled = false;
+                    document.getElementById("genset").disabled = false;
+                    document.getElementById("smps").disabled = false;
+                }
+            });
+
+        </SCRipt>
+        <!-- pictures of site entry -->
+
+        <section class="site-entry-img">
+            <h2>PHOTOS DE L'ENTREE DU SITE</h2>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+         <!-- pictures of site e-->
+
+         <section class="site-sherk">
+            <h2>PHOTOS SHERQ </h2>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- Pictures of generator -->
+        <section class="generator-img">
+            <h2>INFORMATIONS SUR LE GENERATEUR</h2>
+            <div class="bg">
+                <div class="input-wrapper">
+                    <label for="Genset">Genset Model</label>
+                    <select name="grid" id="grid" class="input">
+                        <option value="SEL">Selectionné</option>
+                        <option value="oui">SUPERNOVA 20KVA</option>
+                        <option value="oui">SUPERNOVA 30KVA</option>
+                        <option value="oui">SUPERNOVA 80KVA</option>
+                        <option value="oui">PRAMAC 15KVA</option>
+                        <option value="oui">PRAMAC 20KVA</option>
+                        <option value="oui">VISA 20KVA</option>
+                        <option value="oui">VISA 22KVA</option>
+                        <option value="oui">POWER HF 20KVA</option>
+                        <option value="oui">TEKSAN 20KVA</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="dg">Numero Serie du DG</label>
+                    <input type="text" id="dg" class="input"placeholder="N/A"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="hybrid">Status Automatisme</label>
+                    <select name="hybrid" id="hybrid" class="input">
+                        <option value="hyb"> Select hybrid status </option>
+                        <option value="Found">Trouvé en mode auto</option>
+                        <option value="Left">Laissé en mode auto</option>
+                        <option value="faulty">Pas d'automatisme</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="status">Etat du Generateur</label>
+                    <select name="status" id="status" class="input">
+                        <option value="sta"> Select genset status</option>
+                        <option value="Bon">Bon</option>
+                        <option value="No_good">Pas bon</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="Deep">Etat de la Carte DeepSea</label>
+                    <select name="Deep" id="Deep" class="input">
+                        <option value="dee"> Select DeepSea status</option>
+                        <option value="Good">Bon</option>
+                        <option value="No_good">Faulty</option>
+                        <option value="oui">Pas de DeepSea</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="Fuel">Niveau Carburant</label>
+                    <input type="text" id="Fuel" class="input"placeholder="N/A"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="battery">Batterie de Demarage</label>
+                    <input type="text" id="run_hour" class="input"placeholder="N/A"/>
+                </div>
+            </div>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pictures of AC Serving -->
+        <section class="deep-sea-img">
+            <h2>AC SERVING</h2>
+            <div class="bg">
+                <div class="input-wrapper">
+                    <label for="Site">site type</label>
+                    <select name="Site" id="Site" class="input" onchange="checkSiteType()">
+                        <option value="ind">Selectionné</option>
+                        <option value="outdoor">Outdoor</option>
+                        <option value="indoor">Indoor</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="acModel">AC model climatisation </label>
+                    <input type="text" id="acModel" class="input"placeholder="N/A" disabled />
+                </div>
+                <div class="input-wrapper">
+                    <label for="indoorTemp">Indoor Temperature</label>
+                    <input type="text" id="indoorTemp" class="input"placeholder="N/A" disabled />
+                </div>
+                <div class="input-wrapper">
+                    <label for="workingStatus">Working Status</label>
+                    <select name="working" id="workingStatus" class="input" disabled>
+                        <option value="working">Working</option>
+                        <option value="no_working">No working</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="acUnits">AC Units</label>
+                    <input type="text" id="acUnits" class="input"placeholder="N/A" disabled />
+                </div>
+                <div class="input-wrapper">
+                    <label for="serialNum">Serial Numbers</label>
+                    <input type="text" id="serialNum" class="input"placeholder="N/A" disabled />
+                </div>
+                <div class="input-wrapper">
+                    <label for="pmDate">PM date</label>
+                    <input type="datetime-local" id="pmDate" class="input" disabled />
+                </div>
+                <div class="input-wrapper">
+                    <label for="acCapacity">AC unit capacity(BTU)</label>
+                    <input type="text" id="acCapacity" class="input"placeholder="N/A" disabled />
+                </div>
+            </div>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+        
+        <script>
+            document.getElementById("Site").addEventListener("change", function() {
+                if (this.value === "outdoor") {
+                    document.getElementById("acModel").disabled = true;
+                    document.getElementById("indoorTemp").disabled = true;
+                    document.getElementById("workingStatus").disabled = true;
+                    document.getElementById("acUnits").disabled = true;
+                    document.getElementById("serialNum").disabled = true;
+                    document.getElementById("pmDate").disabled = true;
+                    document.getElementById("acCapacity").disabled = true;
+                } else {
+                    document.getElementById("acModel").disabled = false;
+                    document.getElementById("indoorTemp").disabled = false;
+                    document.getElementById("workingStatus").disabled = false;
+                    document.getElementById("acUnits").disabled = false;
+                    document.getElementById("serialNum").disabled = false;
+                    document.getElementById("pmDate").disabled = false;
+                    document.getElementById("acCapacity").disabled = false;
+                }
+            });
+
+        </script>
+
+
+        <!-- Pictures of electrical system-->
+        <section class="smps-img">
+            <h2>PARTI ELECTRIQUE</h2>
+            <div class="bg">
+                <div class="input-wrapper">
+                    <label for="solar">Solar </label>
+                    <select name="solar" id="solar" class="input">
+                        <option value="SEL">Selectionné</option>
+                        <option value="Yes">OUI</option>
+                        <option value="No">NON</option>
+                    </select>
+
+                </div>
+                <div class="input-wrapper">
+                    <label for="pannel">Solar panel capacity</label>
+                    <input type="text" id="pannel" class="input"placeholder="No write" / >
+                </div>
+                <div class="input-wrapper">
+                    <label for="aviation">Balise</label>
+                    <select name="aviation" id="aviation" class="input" >
+                        <option value="working">Fonctionne</option>
+                        <option value="No_working">Ne Fonctionne pas</option>
+                    </select>
+                </div>
+               
+                <div class="input-wrapper">
+                    <label for="SMPS">SMPS Marque </label>
+                    <select name="grid" id="grid" class="input">
+                        <option value="SEL">Selectionné</option>
+                        <option value="oui">VERTIV</option>
+                        <option value="Non">EXICOM</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="grid">Courant</label>
+                    <select name="grid" id="grid" class="input">
+                        <option value="oui">OUI</option>
+                        <option value="Non">NON</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="availability">Le Courant est disponble</label>
+                     <input type="text" id="availability" class="input" placeholder="N/A" />
+                </div>
+                
+                <div class="input-wrapper">
+                    <label for="battery">Type de Battery backup</label>
+                   <select name="battery" id="battery" class="input">
+                        <option value="oui">Lithium 12volt</option>
+                        <option value="ou">Lithium 48volt</option>
+                        <option value="Non">Amaraja 2volt</option>
+                        <option value="Non">Classic 2volt</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="battery">Controller status</label>
+                    <select name="grid" id="grid" class="input">
+                        <option value="oui">OK</option>
+                        <option value="Non">NOK</option>
+                        <option value="Non">Pas de controller sur Site</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="Earthing">Valeur de Terre</label>
+                    <select name="grid" id="grid" class="input">
+                        <option value="SEL">Selectionné</option>
+                        <option value="oui">BON</option>
+                        <option value="Non">PAS BON</option>
+                        <option value="Non">Pas Mesuré</option>
+                    </select>
+                    
+                </div>
+            </div>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- pictures of Janitorial-->
+
+        <section class="Janitorial">
+            <h2>PHOTOS DE NETTOYAGE</h2>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+        <!-- Pictures of other items-->
+        <section class="items">
+            <h2>AUTRE PHOTOS</h2>
+            <div class="bg">
+                <div class="input-wrapper">
+                    <label for="fence">Cloture Type</label>
+                    <select name="grid" id="grid" class="input">
+                        <option value="SEL">Selectionné</option>
+                        <option value="oui">GRILLAGE</option>
+                        <option value="Non">MUR EN BRIQUE</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="tower">Tower meter</label>
+                    <input type="text" id="tower" class="input"placeholder="N/A" />
+                </div>
+                <div class="input-wrapper">
+                    <label for="Security">Guerite du Gardien</label>
+                    <select name="Security" id="Security" class="input">
+                        <option value="avilable">Disponible</option>
+                        <option value="ei">Norme EI</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="Automatisme">Automatisme</label>
+                    <select name="grid" id="grid" class="input">
+                        <option value="SEL">Selectionné</option>
+                        <option value="oui">OUI</option>
+                        <option value="Non">NON</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="Security">Etat de la Securité</label>
+                    <input type="text" id="Security" class="input"placeholder="N/A" />
+                </div>
+            </div>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+              <!-- external alarm -->
+        
+              <section class="External">
+                <h2>EXTERNAL ALARM</h2>
+                <div class="bg">
+                    <div class="input-wrapper">
+                        <label for="voltage">Baterry low voltage</label>
+                        <input type="checkbox" id="voltage" class="input"/>
+                        
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="failed">Generator failed to start</label>
+                        <input type="checkbox" id="failed" class="input" />
+                        
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="running">Generator running </label>
+                        <input type="checkbox" id="running" class="input" />
+                       
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="stop">Generator stop</label>
+                        <input type="checkbox" id="stop" class="input" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="Gridon">Grid On</label>
+                        <input type="checkbox" id="Gridon" class="input" />
+                       
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="Grido">Grid Off</label>
+                        <input type="checkbox" id="Grido" class="input" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="Lowf">Low fuel</label>
+                        <input type="checkbox" id="Lowf" class="input" />
+                       
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="Rectifier">Rectifier failed</label>
+                        <input type="checkbox" id="Rectifier" class="input" />
+                    </div>
+                </div>
+            </section>
+
+        <!-- extincteur -->
+         <section class="Extinct">
+            <h2>EXTINCTEUR</h2>
+            <div class="bg">
+                <div class="input-wrapper">
+                    <label for="extin">Extincteur Certifier</label>
+                    <select name="extincteur" id="extin" class="input">
+                        <option value="hyb"> Selectionner</option>
+                        <option value="Found">Yes</option>
+                        <option value="faulty">No</option>
+                    </select>
+                </div>
+                <div class="input-wrapper">
+                    <label for="statusE">Extincteur Status</label>
+                    <select name="status" id="status" class="input">
+                        <option value="sta"> Selectionner</option>
+                        <option value="Good">Good</option>
+                        <option value="No_good">No good</option>
+                    </select>
+                </div>
+            </div>
+            <div class="pictures-container">
+                <div class="picture add-button">
+                    <span class="add-icon">+</span>
+                </div>
+            </div>
+        </section>
+        <!-- Extincteur End  -->
+        <!-- issues -->
+        <section>
+            <div class="">
+        
+            </div>
+            <div class="bg">
+                    <label for="Commentaire">Commentaire</label>
+                    <textarea  class="input" id="Commentaire" rows="5"placeholder="N/A"  ></textarea>
+                </div>
+                
+
+                <div>
+            </div>
+        </section>
+    </div>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <script src="Index.js"></script>
+</body>
+</html>
